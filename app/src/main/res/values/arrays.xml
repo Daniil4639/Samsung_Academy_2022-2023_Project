@@ -1,0 +1,131 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Введение в анализ</item>
+        <item>Дискретная математика</item>
+        <item>Алгебра и теория чисел</item>
+        <item>Линейная алгебра</item>
+        <item>Математическая логика</item>
+        <item>Геометрия и топология</item>
+        <item>Дифференциальное и интегральное исчисление</item>
+    </string-array>
+
+    <string-array name="geometry">
+        <item>Понятие вектора и векторного пространства</item>
+        <item>1</item>
+        <item>Линейная зависимость</item>
+        <item>2</item>
+        <item>Скалярное произведение</item>
+        <item>3</item>
+        <item>Векторное произведение</item>
+        <item>4</item>
+        <item>Смешанное произведение</item>
+        <item>29</item>
+        <item>Уравнения прямой на плоскости</item>
+        <item>30</item>
+        <item>Расстояние между точкой/прямой</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="logic">
+        <item>Булева алгебра и её функции</item>
+        <item>5</item>
+        <item>Логические операции и свойтсва</item>
+        <item>6</item>
+        <item>Эквивалентные преобразования</item>
+        <item>7</item>
+        <item>Двойственные функции</item>
+        <item>8</item>
+        <item>КНФ и ДНФ</item>
+        <item>32</item>
+        <item>СКНФ и СДНФ</item>
+        <item>33</item>
+        <item>Методы приведения к СКНФ и СДНФ</item>
+        <item>34</item>
+        <item>Методы неопределенных коэффициентов</item>
+        <item>35</item>
+        <item>Методы Квайна</item>
+        <item>36</item>
+        <item>Методы карты Карно</item>
+        <item>37</item>
+        <item>Алгебра Жегалкина</item>
+        <item>47</item>
+        <item>Классы Поста и полнота системы</item>
+        <item>48</item>
+    </string-array>
+
+    <string-array name="discret">
+        <item>Множества и способы их задания</item>
+        <item>9</item>
+        <item>Разбиение множества</item>
+        <item>10</item>
+        <item>Декартово произведение множеств</item>
+        <item>11</item>
+        <item>Бинарные отношения</item>
+        <item>12</item>
+        <item>Сочетания, размещения, перестановки</item>
+        <item>17</item>
+        <item>Треугольник Паскаля и свойства биноминальных коэффициентов</item>
+        <item>18</item>
+        <item>Бином Ньютона и его свойства</item>
+        <item>19</item>
+        <item>Нахождение КСС для графов</item>
+        <item>20</item>
+        <item>Алгоритм Дейкстра</item>
+        <item>21</item>
+        <item>Алгоритм раскраски графов</item>
+        <item>22</item>
+        <item>Эйлеровый граф</item>
+        <item>23</item>
+        <item>Гамильтоновый граф</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="diff">
+        <item>Производная и дифференцируемость</item>
+        <item>13</item>
+        <item>Логарифмическое дифференцирование</item>
+        <item>14</item>
+        <item>Теоремы о производной обратной и неявно заданной функций</item>
+        <item>15</item>
+        <item>Производная параметрически заданной функции</item>
+        <item>16</item>
+        <item>Дифференциал и приближенные вычисления</item>
+        <item>38</item>
+        <item>Приложение производной</item>
+        <item>39</item>
+        <item>Исследование функции с помощью производной</item>
+        <item>40</item>
+        <item>Ассимптоты</item>
+        <item>41</item>
+        <item>План исследования функции</item>
+        <item>42</item>
+        <item>Таблица интегралов</item>
+        <item>43</item>
+        <item>Метод интегрирования по частям</item>
+        <item>44</item>
+        <item>Метод неопределенных коэффициентов</item>
+        <item>45</item>
+        <item>Метод интегрирования иррациональных функций</item>
+        <item>46</item>
+    </string-array>
+
+    <string-array name="analiz">
+    </string-array>
+
+    <string-array name="algebra_1">
+    </string-array>
+
+    <string-array name="algebra_2">
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

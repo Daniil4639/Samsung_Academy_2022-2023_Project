@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862546993449",
+    "project_id": "mathjourneydata",
+    "storage_bucket": "mathjourneydata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862546993449:android:0a31d6c3d3a048d2cc1738",
+        "android_client_info": {
+          "package_name": "com.example.mathjourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862546993449-2sbb3nl4iou8be3hccpsbiml9g4gotj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvwdAKAd49LUI9QDEfeVTvxjMeqvBZzic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862546993449-2sbb3nl4iou8be3hccpsbiml9g4gotj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

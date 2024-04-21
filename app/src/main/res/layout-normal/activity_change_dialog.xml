@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ap = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".Change_Dialog_Activity">
+
+    <ImageView
+        android:id="@+id/imageViewEscape"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/button_path_image" />
+
+
+    <ImageView
+        android:id="@+id/imageViewHedder"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/imageViewEscape"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/value_image" />
+
+    <TextView
+        android:id="@+id/textViewHedder"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Преобразования плоскости"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewHedder"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHedder"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHedder"
+        app:layout_constraintTop_toTopOf="@+id/imageViewHedder" />
+
+
+    <ImageView
+        android:id="@+id/sep1"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        ap:srcCompat="@drawable/separator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butMove"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/sep2"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        ap:srcCompat="@drawable/separator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editRotate3"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/sep3"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        ap:srcCompat="@drawable/separator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butSimm"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/butMove"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="@drawable/home_panel"
+        android:gravity="center"
+        android:text="Перенести по вектору"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHedder"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/butRotate"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="@drawable/home_panel"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="Повернуть на угол вокруг точки"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sep1"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/butSimm"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="@drawable/home_panel"
+        android:gravity="center"
+        android:text="Отразить отн. прямой"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sep2"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/butScale"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="@drawable/home_panel"
+        android:gravity="center"
+        android:text="Масштабировать"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sep3"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/editMove1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="X вектора:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toEndOf="@+id/butMove"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHedder"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <EditText
+        android:id="@+id/editMove2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Y вектора:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toEndOf="@+id/butMove"
+        app:layout_constraintTop_toBottomOf="@+id/editMove1"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <EditText
+        android:id="@+id/editRotate1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="X точки:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toEndOf="@+id/butRotate"
+        app:layout_constraintTop_toBottomOf="@+id/sep1"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <EditText
+        android:id="@+id/editRotate2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Y точки:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toEndOf="@+id/butRotate"
+        app:layout_constraintTop_toBottomOf="@+id/editRotate1"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <EditText
+        android:id="@+id/editRotate3"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="угол:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toEndOf="@+id/butRotate"
+        app:layout_constraintTop_toBottomOf="@+id/editRotate2"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <EditText
+        android:id="@+id/editSimmK"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="k прямой:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/butSimm"
+        app:layout_constraintTop_toBottomOf="@+id/sep2"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/editSimmB"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="b прямой:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/butSimm"
+        app:layout_constraintTop_toBottomOf="@+id/editSimmK"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/editScale1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="kX:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/butScale"
+        app:layout_constraintTop_toBottomOf="@+id/sep3"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <EditText
+        android:id="@+id/editScale2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_image_2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="kY:"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ap_gray"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/butScale"
+        app:layout_constraintTop_toBottomOf="@+id/editScale1"
+        app:layout_constraintVertical_bias="0.125" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
